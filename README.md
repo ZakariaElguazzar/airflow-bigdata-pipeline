@@ -43,9 +43,6 @@ Sources → Ingestion → Data Lake (RAW) → Traitement → Data Lakehouse (CUR
 - **Data Lakehouse (CURATED)** : données fiables prêtes pour l’analyse
 - **Airflow** : orchestration et supervision du pipeline
 
-📷 *Schéma du pipeline Big Data*  
-> *(Insérer ici une image du pipeline logique)*
-
 ---
 
 ## 🧰 Technologies utilisées
@@ -115,7 +112,8 @@ docker-compose run airflow-webserver airflow users create \
 
 📷 *Interface de connexion Airflow*
 
-> *(Insérer ici une capture de l’écran de login Airflow)*
+<img width="3000" height="1119" alt="image" src="https://github.com/user-attachments/assets/18b32d72-116c-410b-a85a-33157bb27200" />
+
 
 ---
 
@@ -131,7 +129,8 @@ Le DAG `bigdata_pipeline_complete` orchestre les tâches suivantes :
 
 📷 *Vue Graph du DAG Airflow*
 
-> *(Insérer ici une capture de la vue Graph)*
+<img width="2284" height="949" alt="image" src="https://github.com/user-attachments/assets/6c8439d7-e75a-42c8-b6db-920f63ac2bff" />
+
 
 ---
 
@@ -144,7 +143,8 @@ Le DAG `bigdata_pipeline_complete` orchestre les tâches suivantes :
 
 📷 *Activation du DAG dans Airflow*
 
-> *(Insérer ici une image du DAG activé)*
+<img width="893" height="200" alt="image" src="https://github.com/user-attachments/assets/30a269b7-57d0-4e2d-85c3-667fc363858b" />
+
 
 ### Lancer le pipeline
 
@@ -153,7 +153,8 @@ Le DAG `bigdata_pipeline_complete` orchestre les tâches suivantes :
 
 📷 *Lancement manuel du DAG*
 
-> *(Insérer ici une capture du bouton Trigger DAG)*
+<img width="2767" height="125" alt="image" src="https://github.com/user-attachments/assets/04fa28bc-4fc8-49cb-8fea-41288ecd65ef" />
+
 
 ---
 
@@ -168,7 +169,8 @@ Le DAG `bigdata_pipeline_complete` orchestre les tâches suivantes :
 
 📷 *Exécution du pipeline en temps réel*
 
-> *(Insérer ici une capture montrant les tâches colorées)*
+<img width="2836" height="564" alt="image" src="https://github.com/user-attachments/assets/16ae3b33-5a86-476c-ba98-614daf03efcc" />
+
 
 ### Logs
 
@@ -194,7 +196,8 @@ data/curated/sales_curated.csv
 
 📷 *Structure finale des fichiers*
 
-> *(Insérer ici une capture du dossier data/)*
+<img width="2059" height="1095" alt="image" src="https://github.com/user-attachments/assets/2ac1233c-5a70-46dc-9bdb-84605d5cd0fa" />
+
 
 ---
 
