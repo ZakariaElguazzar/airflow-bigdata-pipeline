@@ -1,11 +1,3 @@
-Voici un **README.md professionnel et prêt pour GitHub** pour ton lab
-**“Orchestration d’un pipeline Big Data complet avec Apache Airflow”**, avec **des emplacements réservés pour les images** (interfaces, DAG, graph, logs, etc.).
-
-Tu peux le copier-coller directement dans un fichier `README.md`.
-
----
-
-```md
 # 🛠️ Orchestration d’un Pipeline Big Data avec Apache Airflow
 
 ## 📌 Description du Lab
